@@ -1,0 +1,32 @@
+.userList {
+  flex: 4;
+}
+.userListUser {
+  display: flex;
+  align-items: center;
+}
+.userListImg {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.userListAction {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.userListEdit {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(100, 206, 100);
+  color: white;
+  margin-right: 20px;
+}
+
+.userListDelete {
+  color: red;
+}
